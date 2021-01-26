@@ -2,15 +2,6 @@ const chalk = require('chalk')
 const yargs = require('yargs')
 const notes = require('./notes.js')
 
-
-//
-// Challenge: Wire up removeNote
-//
-// 1. Load existing notes
-// 2. Use array filter method to remove the matching note (if any)
-// 3. Save the newly created array
-// 4. Test your work with a title that exists and a title that doesn't exist
-
 // Create add command
 yargs.command({
     command: 'add',
